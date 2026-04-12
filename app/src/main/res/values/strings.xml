@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="my_tasks">Moje Úlohy</string>
+    <string name="task1">Úloha 1</string>
+    <string name="deadline">Deadline: Dnes</string>
+    <string name="task_name_input">Zadajte názov úlohy</string>
+</resources>
