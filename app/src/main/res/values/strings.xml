@@ -4,4 +4,6 @@
     <string name="task1">Úloha 1</string>
     <string name="deadline">Deadline: Dnes</string>
     <string name="task_name_input">Zadajte názov úlohy</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
 </resources>

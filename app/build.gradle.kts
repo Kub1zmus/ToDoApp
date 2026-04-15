@@ -11,6 +11,12 @@ android {
         }
     }
 
+    compileOptions {
+        isCoreLibraryDesugaringEnabled = true // Povoliť podporu pre staršie zariadenia
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
         applicationId = "com.example.todoapp"
         minSdk = 24
@@ -55,4 +61,5 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+    coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.5")
 }
